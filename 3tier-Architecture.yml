@@ -369,7 +369,7 @@ Resources:
     DependsOn: AppTierSecurityGroup
     Properties:
       SourceSecurityGroupId: !GetAtt AppTierLBSecurityGroup.GroupId
-      Description: "Allow HTTP from Web Tier Load Balancer"
+      Description: "Allow HTTP from App Tier Load Balancer"
       GroupId: !GetAtt AppTierSecurityGroup.GroupId
       IpProtocol: tcp
       FromPort: 80
