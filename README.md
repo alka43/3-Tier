@@ -1,6 +1,6 @@
 # 3-Tier
 What is a Three-Tier Architecture?
-A 3-Tier architecture provides a general framework for deploying traditional client/server applications into three logical tiers; the Web, Application, and Database tier. End users interact with the Web tier (e.g., mobile app, website, etc.), which provides them with a user interface they can use to view, modify, or submit information. The Application tier is responsible for handling the requests made by the user. The Application or Middle tier is the brains 🧠 behind the operation. It assists in translating users actions into business logic that allow for data processing by programs. Lastly, the Database or Data tier is where the information processed by the application is stored and managed.
+A 3-Tier architecture provides a general framework for deploying traditional client/server applications into three logical tiers; the Web, Application, and Database tier. End users interact with the Web tier (e.g., mobile app, website, etc.), which provides them with a user interface they can use to view, modify, or submit information. The Application tier is responsible for handling the requests made by the user. The Application or Middle tier is the brains behind the operation. It assists in translating users actions into business logic that allow for data processing by programs. Lastly, the Database or Data tier is where the information processed by the application is stored and managed.
 
 ![image](https://user-images.githubusercontent.com/123304509/213964602-31dbc271-1dc7-4db9-ab11-39407ba6243d.png)
 
